@@ -11,6 +11,16 @@
 </p>
 
 <p>
+  <strong>Detail:</strong>
+  <%= @book.detail %>
+</p>
+
+<p>
+  <strong>Review:</strong>
+  <%= @book.review %>
+</p>
+
+<p>
    <% if @book.image.attached? %>
      <%= image_tag @book.image %>
    <% end %>
